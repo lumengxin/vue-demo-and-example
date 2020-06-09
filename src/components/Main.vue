@@ -1,71 +1,36 @@
 <template>
-  <div class="main">
-    <div class="header">
-      header
+  <div class="de-main">
+    <de-header></de-header>
+    <div class="de-content">
+      aaa
     </div>
-
-    <div class="container">
-      <div class="aside-left">
-        aside
-      </div>
-      <div class="content">
-        content
-      </div>
-      <div class="aside-right">
-        right
-      </div>
-    </div>
-
-    <div class="footer">
-      footer
-    </div>
+    <de-footer></de-footer>
   </div>
 </template>
 
 <script>
+import DeHeader from 'components/DeHeader/DeHeader'
+import DeFooter from 'components/DeFooter/DeFooter'
+
 export default {
   name: 'Main',
+  components: {
+    DeHeader,
+    DeFooter
+  },
   data: () => ({
   })
 }
 </script>
 
 <style lang="stylus" scoped>
-  @import '~stylus/base'
+@import '~stylus/base'
 
-  .main
-    width 100%
-    height 100%
-    background-color $bgColor
-    .header
-      width 100%
-      height 3.5rem
-      background-color $bgColorHeader
-    .container
-      width 100%
-      height 35rem
-      margin .6rem auto
-      border 1px solid blue
-      border-radius .3rem
-      .aside-left
-        width 20%
-        height 30rem
-        background #baf
-        float left
-      .content
-        width 60%
-        height 30rem
-        background blue
-        float left
-      .aside-right
-        width 20%
-        height 30rem
-        background #baf
-        float right
-    .footer
-      position fixed
-      bottom 0
-      width 100%
-      height 15rem
-      background-color #baf
+.de-main
+  .de-content
+    width 1100px
+    margin 0 auto
+    background pink
+    margin-top $headerHeight
+    padding-bottom 10rem
 </style>
