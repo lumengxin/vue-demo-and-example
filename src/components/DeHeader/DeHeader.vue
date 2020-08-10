@@ -2,11 +2,14 @@
   <div class="de-header">
     <div class="content g-container">
       <div class="logo">
-        <img src="" alt="logo" />
-        <span class="title">vdae</span>
+        <img src="../../assets/images/logo2.png" alt="logo" />
+        <span class="title">Vdae</span>
       </div>
       <div class="search">
-        <input type="search" />
+        <form class="search-from">
+          <i class="iconde iconsearch"></i>
+          <input type="search" />
+        </form>
       </div>
       <div class="navs">
         <ul class="nav-list">
@@ -29,20 +32,35 @@
   width 100%
   font-size $textSize
   height $headerHeight
-  background $headerBgColor
+  background $mainBgColor
   line-height $headerHeight
   .content
     display flex
     justify-content space-between
+    align-items center
     .logo
+      width 1.2rem
       img
-        width .24rem
-        height .24rem
+        width .36rem
+        height .36rem
+        vertical-align middle
       span
         color pink
+        margin-left .1rem
     .search
-      color red
+      .search-from
+        border .01rem solid #fff
+        border-radius .2rem
+        width 2.5rem
+        height .35rem
+        line-height .35rem
+        padding 0 .05rem
+        input
+          width 85%
+          margin-left .05rem
+          background $mainBgColor
     .navs
+      width 2rem
       .nav-list
         display flex
         justify-content space-between

@@ -8,5 +8,5 @@
 @import '~stylus/base'
 
 .de-footer
-  background $footerBgColor
+  background $mainBgColor
 </style>

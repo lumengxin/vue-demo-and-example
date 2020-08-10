@@ -3,7 +3,11 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 
+const BASE_URL = process.env.BASE_URL
+
 module.exports = {
+  publicPath: BASE_URL,
+  assetsDir: 'static',
   devServer: {
     port: 8888,
     open: true
