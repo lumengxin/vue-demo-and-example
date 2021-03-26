@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vuepress dev example && vue-cli-service serve",
     "build": "vue-cli-service build --mode prod",
     "lint": "vue-cli-service lint"
   },
@@ -23,6 +23,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "vuepress": "^1.5.3"
   }
 }
