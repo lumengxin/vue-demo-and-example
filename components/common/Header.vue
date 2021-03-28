@@ -40,10 +40,10 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: "Header",
   data() {
     return {
-      activeIndex: '1',
+      activeIndex: '1'
     }
   },
   handleSelect(key, keyPath) {
@@ -54,10 +54,13 @@ export default {
 
 <style lang="stylus" scoped>
 .header
+  position fixed
   display flex
   justify-content space-between
   width 100%
+  margin-right .125rem
   height 3.75rem
+  box-shadow 0px 1px 1px 1px rgba(243, 243, 243, .8)
   .logo
     display flex
     justify-content center
@@ -68,5 +71,6 @@ export default {
     h2
       display inline
   .opt
+    padding-right .625rem
     line-height 3.75rem
 </style>

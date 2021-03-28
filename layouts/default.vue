@@ -1,12 +1,10 @@
 <template>
-  <el-container>
-    <el-header>
-      <Header />
-    </el-header>
-    <el-main>
+  <div class="main-container">
+    <Header />
+    <div class="main-content">
       <Nuxt />
-    </el-main>
-  </el-container>
+    </div>
+  </div>
 </template>
 
 <script>
