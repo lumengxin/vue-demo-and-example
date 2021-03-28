@@ -1,39 +1,11 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">vue-demo-and-example</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-        <Header />
-      </div>
-    </div>
-  </div>
+  <div class="container"></div>
 </template>
 
 <script>
 // components根目录vue可以直接使用，无需注册
-import Header from '../components/common/Header'
 export default {
-  name: "Index",
-  components: {
-    Header
-  }
+  name: 'Index',
 }
 </script>
 

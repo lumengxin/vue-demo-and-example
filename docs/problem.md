@@ -16,7 +16,6 @@
 > "endOfLine": "auto"
 
 4. git全局配置
-<<<<<<< HEAD
 > git config --global core.autocrlf false
 
 ### 2. husky中配置hook不生效？
@@ -28,6 +27,19 @@
 尝试git升级(2.23->2.31); 卸载husky重装; yarn改npm; 删除本地项目从远程拉; 从其他项目拷
 贝缺失文件...都无效
 
-=======
-> git config --global core.autocrlf false
->>>>>>> 75f85d0b909726c9720ab0f4901921bd641c3f54
+### 3. TypeError: this.getOptions is not a function at Object.stylusLoader...
+
+安装stylus预处理器报错
+> yarn add -D stylus stylus-loader
+
+原因：版本不对
+```
+"stylus": "^0.54.8",
+"stylus-loader": "^5.0.0",
+```
+
+解决：修改版本号，重新安装 `yarn`
+```
+"stylus": "^0.54.5",
+"stylus-loader": "^3.0.2",
+```
