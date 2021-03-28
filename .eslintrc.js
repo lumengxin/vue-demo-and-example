@@ -16,7 +16,7 @@ module.exports = {
   // add your custom rules here
   rules: {
     // prettier校验不过改成警告
-    "prettier/prettier": "warn",
+    'prettier/prettier': 'warn',
 
     // "no-useless-escape": 0, // 禁用不必要的转义
     // semi: [2, "never"], // 语句强制分号结尾

@@ -6,13 +6,13 @@ module.exports = {
   // 不检查每行结尾
   endOfLine: 'auto',
   // 数组 对象尾随逗号
-  trailingComma: "es5", 
+  trailingComma: 'es5',
   // 对象空格
-  bracketSpacing: true, 
+  bracketSpacing: true,
   // 箭头函数是否省略括号
-  arrowParens: 'avoid', 
+  arrowParens: 'avoid',
   // jsx闭标签是否另起一行
-  jsxBracketSameLine: false, 
+  jsxBracketSameLine: false,
 
   // printwidth: 100, // 超过最大值换行
   // tabWidth: 2, // 缩进字节数
@@ -27,5 +27,4 @@ module.exports = {
   // requireConfig: false, // Require a 'prettierconfig' to format prettier
   // stylelintIntegration: false, //不让prettier使用stylelint的代码格式进行校验
   // tslintIntegration: false // 不让prettier使用tslint的代码格式进行校验
-
 }
