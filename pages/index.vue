@@ -28,7 +28,7 @@
 
 <script>
 // components根目录vue可以直接使用，无需注册
-import Header from '../components/common/Header'
+import Header from '../components/common/Header';
 export default {
   name: "Index",
   components: {
