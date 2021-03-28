@@ -1,20 +1,29 @@
 # vue-demo-and-example
 
-## Build Setup
+## 开始
 
 ```bash
-# install dependencies
+# 安装依赖
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# 在本地主机上热加载服务 localhost:3000
 $ yarn dev
 
-# build for production and launch server
+# 为生产和启动服务器构建
 $ yarn build
 $ yarn start
 
-# generate static project
+# 生成静态项目
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## 初始项目
+
+构建工具初始化一个项目
+
+`yarn create nuxt-app vue-demo-and-example`
+
+![初始化项目](./docs/images/初始化项目.png)
+
+## 开发
+

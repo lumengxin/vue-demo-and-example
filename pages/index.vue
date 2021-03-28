@@ -20,13 +20,21 @@
         >
           GitHub
         </a>
+        <Header />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+// components根目录vue可以直接使用，无需注册
+import Header from '../components/common/Header'
+export default {
+  name: 'Index',
+  components: {
+    Header
+  }
+}
 </script>
 
 <style>
