@@ -33,7 +33,7 @@ export default {
   name: "Index",
   components: {
     Header
-  }
+  },
 }
 </script>
 
