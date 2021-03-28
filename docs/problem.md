@@ -16,6 +16,7 @@
 > "endOfLine": "auto"
 
 4. git全局配置
+<<<<<<< HEAD
 > git config --global core.autocrlf false
 
 ### 2. husky中配置hook不生效？
@@ -27,3 +28,6 @@
 尝试git升级(2.23->2.31); 卸载husky重装; yarn改npm; 删除本地项目从远程拉; 从其他项目拷
 贝缺失文件...都无效
 
+=======
+> git config --global core.autocrlf false
+>>>>>>> 75f85d0b909726c9720ab0f4901921bd641c3f54
