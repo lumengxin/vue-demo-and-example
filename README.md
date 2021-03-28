@@ -25,5 +25,11 @@ $ yarn generate
 
 ![初始化项目](./docs/images/初始化项目.png)
 
+## 项目规范
+
+### commit规范
+
+[git commit](https://juejin.cn/post/6863047306754097160)配置
+
 ## 开发
 
