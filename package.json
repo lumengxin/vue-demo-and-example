@@ -14,8 +14,9 @@
   },
   "lint-staged": {
     "*.{js,vue}": [
-      "prettier-standard --lint",
-      "git add"
+      "prettier --write",
+      "eslint --fix",
+      "git add -A"
     ]
   },
   "husky": {
