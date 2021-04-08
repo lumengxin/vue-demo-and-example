@@ -27,6 +27,13 @@
 尝试git升级(2.23->2.31); 卸载husky重装; yarn改npm; 删除本地项目从远程拉; 从其他项目拷
 贝缺失文件...都无效
 
+husky 5是一个带有突变变化的主要版本,收费。降低版本
+> "husky": "^5.2.0" -> "husky": "^4.3.5"
+
+commit-msg生效，pre-commit还是没有生效
+降低lint-staged版本
+> "lint-staged": "^10.5.4" -> "lint-staged": "^4.0.0",
+
 ### 3. TypeError: this.getOptions is not a function at Object.stylusLoader...
 
 安装stylus预处理器报错

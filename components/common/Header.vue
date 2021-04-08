@@ -46,8 +46,10 @@ export default {
       activeIndex: '1',
     }
   },
-  handleSelect(key, keyPath) {
-    console.log(key, keyPath)
+  methods: {
+    handleSelect(key) {
+      console.log(key)
+    },
   },
 }
 </script>
